@@ -1,5 +1,5 @@
 {
-  "name": "@kruchuverchu/common",
+  "name": "@dallasstudio/common",
   "version": "1.0.6",
   "description": "",
   "main": "./build/index.js",
