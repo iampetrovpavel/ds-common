@@ -9,8 +9,11 @@
   ],
   "scripts": {
     "clean": "del ./build/*",
+    "clean-win": "del-cli ./build/*",
     "build": "npm run clean && tsc",
-    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish --access public"
+    "build-win": "npm run clean-win && tsc",
+    "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish --access public",
+    "pub-win": "git add . && git commit -m \"Updates\" && npm version patch && npm run build-win && npm publish --access public"
   },
   "keywords": [],
   "author": "",
