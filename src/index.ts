@@ -25,6 +25,6 @@ export * from './events/types/order-status';
 export * from './events/expiration-complite-event'
 
 export * from './events/payment-created-event'
-export * from './events/payment-complite-event'
+export * from './events/payment-complete-event'
 export * from './events/types/payment-status';
 
