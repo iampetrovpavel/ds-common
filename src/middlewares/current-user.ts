@@ -5,7 +5,8 @@ interface UserPayload {
     id: string,
     email: string,
     name: string,
-    admin: boolean
+    admin: boolean,
+    groups: string[]
 }
 
 declare global {
